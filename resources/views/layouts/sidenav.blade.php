@@ -36,7 +36,7 @@
             <img src="/assets/img/brand/light.svg" height="20" width="20" alt="Volt Logo">
           </span>
           <span class="mt-1 ms-1 sidebar-text">
-            Live Scores
+            Live Results
           </span>
         </a>
       </li>
