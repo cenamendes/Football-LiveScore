@@ -99,6 +99,8 @@
     <!-- Volt JS -->
     <script src="/assets/js/volt.js"></script>
 
+    <script type="module" src="https://widgets.api-sports.io/2.0.3/widgets.js"></script>
+
     @if(env('IS_DEMO')) 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141734189-6"></script>
