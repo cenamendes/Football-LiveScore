@@ -25,6 +25,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\ResetPasswordExample;
 use App\Http\Livewire\UpgradeToPro;
 use App\Http\Livewire\Users;
+use App\Http\Controllers\Countries\CountriesController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -68,4 +70,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/forms', Forms::class)->name('forms');
     Route::get('/modals', Modals::class)->name('modals');
     Route::get('/typography', Typography::class)->name('typography');
+
+    Route::resource('countries', CountriesController::class);
+
+
 });
+

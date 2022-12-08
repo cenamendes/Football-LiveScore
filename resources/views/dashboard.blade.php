@@ -1,3 +1,5 @@
+@extends('layouts.app')
+@section('content')
 <title>Football Live Scores</title>
 <div class="py-4">
     <div class="dropdown">
@@ -550,7 +552,7 @@
                             data-league=""
                             data-season=""
                             data-theme=""
-                            data-refresh="15" 
+                            data-refresh="0" 
                             data-show-toolbar="true"
                             data-show-errors="false"
                             data-show-logos="false"
@@ -564,3 +566,4 @@
         </div>
     </div>
 </div>
+@endsection
