@@ -37,10 +37,11 @@ class CountriesController extends Controller
         
         $response = curl_exec($curl);
         $err = curl_error($curl);
-        curl_close($curl);
+        curl_close($curl); 
+     
 
         $countries = json_decode($response,true);
-      
+     
     
         return view('countries.index',compact('countries'));
     }
