@@ -25,6 +25,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\ResetPasswordExample;
 use App\Http\Livewire\UpgradeToPro;
 use App\Http\Livewire\Users;
+use App\Http\Livewire\Countries\ShowLeagues;
 use App\Http\Controllers\Countries\CountriesController;
 
 
@@ -72,7 +73,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/typography', Typography::class)->name('typography');
 
     Route::resource('countries', CountriesController::class);
-
+   
 
 });
 
