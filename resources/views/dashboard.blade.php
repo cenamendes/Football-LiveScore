@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('Title') Live Results @endsection
 @section('content')
 <title>Football Live Scores</title>
 <div class="py-4">

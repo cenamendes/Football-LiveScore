@@ -162,7 +162,7 @@
             "dom": 'frtp',
             "language": {
                 "info": "Mostrar página _PAGE_ de _PAGES_",
-                "zeroRecords": "Não existe esse país",
+                "zeroRecords": "Country does not exist",
                 "search": "Search:",
                 "processing": '<div class="d-flex justify-content-center"><div class="spinner-border" role="status"><span class="visually-hidden">Loading...</span></div></div>',
                
