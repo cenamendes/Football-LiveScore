@@ -546,7 +546,7 @@
                     <div class="d-block" style="height:460px;overflow:scroll;">
                         <div id="wg-api-football-games"
                             data-host="v3.football.api-sports.io"
-                            data-key="d05da7e92792ff7112cba93eeb49fd21"
+                            data-key="17b1c5a9f1a900a69c70e9d6130de6dd"
                             data-theme = "dark"
                             data-date=""
                             data-league=""

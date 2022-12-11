@@ -43,7 +43,7 @@
       <li class="nav-item">
         <a href="{{ route('countries.index') }}" class="nav-link d-flex align-items-center">
           <span class="sidebar-icon me-3">
-            <i class="fas fa-globe-americas" style="color:orange;"></i>
+            <i class="fas fa-globe-americas" style="color:#fb503b;"></i>
           </span>
           <span class="mt-1 ms-1 sidebar-text">
              &nbsp;Countries
